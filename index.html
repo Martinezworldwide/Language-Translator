@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Translator</title>
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'es,fr,de,it,zh-CN', // Add the languages you need
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+<body>
+    <h1>Website Translator</h1>
+    <p>Select a language below to translate the website.</p>
+    <!-- Translation Widget -->
+    <div id="google_translate_element"></div>
+
+    <!-- Embed with iframe instruction -->
+    <p>Embed this translator using the following iframe code:</p>
+    <textarea readonly rows="3" style="width:100%;">
+        <iframe src="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/" width="100%" height="500px"></iframe>
+    </textarea>
+</body>
+</html>
